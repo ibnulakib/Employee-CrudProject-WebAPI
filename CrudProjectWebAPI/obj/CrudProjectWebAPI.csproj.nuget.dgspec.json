@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\FARDIN\\demo\\CrudProjectWebAPI\\CrudProjectWebAPI\\CrudProjectWebAPI.csproj": {}
+    "D:\\Class\\work\\aspdotnet\\C# task\\Main\\CrudProjectWebAPI-2023-06-07\\CrudProjectWebAPI\\Employee-CrudProject-WebAPI\\CrudProjectWebAPI\\CrudProjectWebAPI.csproj": {}
   },
   "projects": {
-    "D:\\FARDIN\\demo\\CrudProjectWebAPI\\CrudProjectWebAPI\\CrudProjectWebAPI.csproj": {
+    "D:\\Class\\work\\aspdotnet\\C# task\\Main\\CrudProjectWebAPI-2023-06-07\\CrudProjectWebAPI\\Employee-CrudProject-WebAPI\\CrudProjectWebAPI\\CrudProjectWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FARDIN\\demo\\CrudProjectWebAPI\\CrudProjectWebAPI\\CrudProjectWebAPI.csproj",
+        "projectUniqueName": "D:\\Class\\work\\aspdotnet\\C# task\\Main\\CrudProjectWebAPI-2023-06-07\\CrudProjectWebAPI\\Employee-CrudProject-WebAPI\\CrudProjectWebAPI\\CrudProjectWebAPI.csproj",
         "projectName": "CrudProjectWebAPI",
-        "projectPath": "D:\\FARDIN\\demo\\CrudProjectWebAPI\\CrudProjectWebAPI\\CrudProjectWebAPI.csproj",
-        "packagesPath": "C:\\Users\\MIS04\\.nuget\\packages\\",
-        "outputPath": "D:\\FARDIN\\demo\\CrudProjectWebAPI\\CrudProjectWebAPI\\obj\\",
+        "projectPath": "D:\\Class\\work\\aspdotnet\\C# task\\Main\\CrudProjectWebAPI-2023-06-07\\CrudProjectWebAPI\\Employee-CrudProject-WebAPI\\CrudProjectWebAPI\\CrudProjectWebAPI.csproj",
+        "packagesPath": "C:\\Users\\ibnul\\.nuget\\packages\\",
+        "outputPath": "D:\\Class\\work\\aspdotnet\\C# task\\Main\\CrudProjectWebAPI-2023-06-07\\CrudProjectWebAPI\\Employee-CrudProject-WebAPI\\CrudProjectWebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MIS04\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ibnul\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -23,8 +23,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
-          "https://www.nuget.org/api/v2/": {},
-          "https://www.nuget.org/packages": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -42,9 +41,19 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.17, )"
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

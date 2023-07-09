@@ -18,13 +18,13 @@ namespace CrudProjectWebAPI.Controllers
         [HttpGet("absent")]
         public IActionResult GetEmployeesWithAbsentDays()
         {
-            var employeeIds = _context.EmployeeAttendance
+            var employeeIds = _context.tblEmployeeAttendance
                 .Where(a => a.IsAbsent)
                 .Select(a => a.EmployeeId)
                 .Distinct()
                 .ToList();
 
-            var employees = _context.Employees.Where(e => employeeIds.Contains(e.EmployeeId)).ToList();
+            var employees = _context.tblEmployee.Where(e => employeeIds.Contains(e.EmployeeId)).ToList();
 
             return Ok(employees);
             //return Ok("1");
